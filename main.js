@@ -3,6 +3,7 @@ const {app, BrowserWindow} = require('electron')
 const path = require('path')
 
 const sqlite3 = require('sqlite3').verbose();
+const { PDFNet } = require('@pdftron/pdfnet-node');
 
 // Initialize SQLite 3 Database in-memory, create entries and print them
 // to demonstrate it works
@@ -23,6 +24,13 @@ db.serialize(function() {
 });
 
 db.close();
+
+// Attempt to initialize PDFNet
+
+(async () => {
+  // https://www.pdftron.com/download-center/windows/
+  await PDFNet.initialize('your-demo-license-key-here');
+})();
 
 function createWindow () {
   // Create the browser window.
