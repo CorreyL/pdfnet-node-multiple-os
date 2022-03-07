@@ -26,5 +26,14 @@
     "sqlite3": "^5.0.2",
     "underscore": "^1.13.2",
     "xhr2": "^0.2.1"
+  },
+  "build": {
+    "appId": "com.pdftron.test",
+    "files": [
+      "main.js",
+      "preload.js",
+      "index.html"
+    ],
+    "win": {}
   }
 }
