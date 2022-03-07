@@ -17,6 +17,13 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^17.1.0"
+    "electron": "^16.0.9",
+    "electron-builder": "^22.14.13"
+  },
+  "dependencies": {
+    "@pdftron/pdfnet-node": "^9.2.0-1",
+    "sqlite3": "^5.0.2",
+    "underscore": "^1.13.2",
+    "xhr2": "^0.2.1"
   }
 }
