@@ -19,7 +19,7 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^16.0.9",
-    "electron-builder": "^22.14.13"
+    "electron-builder": "^23.1.0"
   },
   "dependencies": {
     "@pdftron/pdfnet-node": "^9.2.0-1",
