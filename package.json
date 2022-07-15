@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@pdftron/pdfnet-node": "^9.2.0-1",
-    "sqlite3": "^5.0.2",
+    "sqlite3": "^5.0.9",
     "underscore": "^1.13.2",
     "xhr2": "^0.2.1"
   },
